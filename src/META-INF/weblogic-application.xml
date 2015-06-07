@@ -8,4 +8,7 @@
     <listener>
         <listener-class>oracle.mds.lcm.weblogic.WLLifecycleListener</listener-class>
     </listener>
+    <prefer-application-packages>
+        <package-name>org.apache.commons.io</package-name>
+    </prefer-application-packages>
 </weblogic-application>
